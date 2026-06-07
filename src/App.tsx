@@ -25,6 +25,7 @@ import { CodeBlock } from "./components/CodeBlock";
 
 function App() {
   const [activeSection, setActiveSection] = useState("hero");
+  const isMobile = window.innerWidth < 768;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -520,7 +521,7 @@ LIMIT 5;`}
       <PracticeChallenges />
 
       {/* Footer */}
-      <footer className="relative py-16 px-6 border-t border-slate-800">
+      <footer className="relative pt-16 pb-4 px-6 border-t border-slate-800">
         <div className="max-w-6xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -553,8 +554,8 @@ LIMIT 5;`}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="absolute bottom-4 right-6 text-[14px] text-slate-600"
+          viewport={{ once: true, amount: 0.8 }}
+          className="text-right mt-8 text-[14px] text-slate-600"
         >
           Developed by{" "}
           <a

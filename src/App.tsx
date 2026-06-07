@@ -25,7 +25,6 @@ import { CodeBlock } from "./components/CodeBlock";
 
 function App() {
   const [activeSection, setActiveSection] = useState("hero");
-  const isMobile = window.innerWidth < 768;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -552,7 +551,7 @@ LIMIT 5;`}
         </div>
         {/* develope by Hasnat Fahmid Khan + animation */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.8 }}
           className="text-right mt-8 text-[14px] text-slate-600"

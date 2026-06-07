@@ -3,6 +3,12 @@ import { Database, Sparkles, ArrowDown, Code2 } from "lucide-react";
 import { CodeBlock } from "./CodeBlock";
 
 export function SqlHero() {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
   return (
     <section
       id="hero"
@@ -101,24 +107,24 @@ export function SqlHero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
         >
-          <motion.a
-            href="#intro"
+          <motion.button
+            onClick={() => scrollToSection("intro")}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-4 rounded-2xl bg-linear-to-r from-cyan-500 to-emerald-500 text-white font-semibold text-lg shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-shadow flex items-center justify-center gap-2"
           >
             <Database className="w-5 h-5" />
             Start Learning
-          </motion.a>
-          <motion.a
-            href="#execution"
+          </motion.button>
+          <motion.button
+            onClick={() => scrollToSection("execution")}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-8 py-4 rounded-2xl bg-slate-800/50 border border-slate-700 text-slate-200 font-semibold text-lg hover:bg-slate-800 transition-colors flex items-center justify-center gap-2"
           >
             <Code2 className="w-5 h-5" />
             View Examples
-          </motion.a>
+          </motion.button>
         </motion.div>
 
         {/* Animated code preview */}

@@ -1,8 +1,15 @@
 # SQL Master - Interactive SQL SELECT Learning Platform
 
+[![🌐 Live Demo](https://img.shields.io/badge/🌐_Live-Demo-success?style=for-the-badge)](https://learn-sql-query.netlify.app/)
+[![📖 Documentation](https://img.shields.io/badge/📖-Documentation-blue?style=for-the-badge)](#-sql-topics-covered)
+[![🚀 Getting Started](https://img.shields.io/badge/🚀-Getting_Started-orange?style=for-the-badge)](#-getting-started)
+[![🤝 Contributing](https://img.shields.io/badge/🤝-Contributing-purple?style=for-the-badge)](#-contributing)
+
 A stunning, modern animated landing page for learning SQL SELECT statements. Built with React, TypeScript, and Tailwind CSS with beautiful visualizations and interactive examples.
 
-![SQL Master Preview](https://img.shields.io/badge/React-19-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC) ![Vite](https://img.shields.io/badge/Vite-7.0-646CFF)
+## 📸 Preview
+
+![SQL Master Preview](https://res.cloudinary.com/dye6u4hpt/image/upload/q_auto/f_auto/v1780891100/Screenshot_2026-06-08_095449_k80si3.png)
 
 ## ✨ Features
 

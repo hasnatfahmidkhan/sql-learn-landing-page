@@ -2,7 +2,7 @@
 
 A stunning, modern animated landing page for learning SQL from basics to advanced. Built with React, TypeScript, and Tailwind CSS with beautiful visualizations and interactive examples.
 
-[![🌐 Live Demo](https://img.shields.io/badge/🌐_Live-Demo-success?style=for-the-badge)](https://your-live-url.com)
+[![🌐 Live Demo](https://img.shields.io/badge/🌐_Live-Demo-success?style=for-the-badge)](https://learn-sql-query.netlify.app/)
 [![📖 Documentation](https://img.shields.io/badge/📖-Documentation-blue?style=for-the-badge)](#-sql-topics-covered)
 [![🚀 Getting Started](https://img.shields.io/badge/🚀-Getting_Started-orange?style=for-the-badge)](#-getting-started)
 [![🤝 Contributing](https://img.shields.io/badge/🤝-Contributing-purple?style=for-the-badge)](#-contributing)

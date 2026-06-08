@@ -9,7 +9,7 @@ A stunning, modern animated landing page for learning SQL from basics to advance
 
 ## 📸 Preview
 
-![SQL Master Preview](https://res.cloudinary.com/dye6u4hpt/image/upload/q_auto/f_auto/v1780891100/Screenshot_2026-06-08_095449_k80si3.png)
+![SQL Master Preview](https://res.cloudinary.com/dye6u4hpt/image/upload/q_auto/f_auto/v1780937829/learnsql_ifov31.png)
 
 ## ✨ Features
 

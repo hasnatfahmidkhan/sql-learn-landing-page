@@ -22,6 +22,8 @@ import { ExecutionFlow } from "./components/ExecutionFlow";
 import { FloatingNav } from "./components/FloatingNav";
 import { PracticeChallenges } from "./components/PracticeChallenges";
 import { CodeBlock } from "./components/CodeBlock";
+import { JoinsSection } from "./components/JoinSection";
+import { AdvancedConcepts } from "./components/AdvancedConcepts";
 
 function App() {
   const [activeSection, setActiveSection] = useState("hero");
@@ -33,9 +35,9 @@ function App() {
         "intro",
         "basics",
         "filtering",
-        "advanced",
         "aggregation",
-        "execution",
+        "joins",
+        "advanced-topics",
         "practice",
       ];
       const scrollPosition = window.scrollY + 300;
@@ -515,6 +517,12 @@ LIMIT 5;`}
           </motion.div>
         </div>
       </section>
+
+      {/* Join Section */}
+      <JoinsSection />
+
+      {/* Advanced Concepts */}
+      <AdvancedConcepts />
 
       {/* Practice Challenges */}
       <PracticeChallenges />

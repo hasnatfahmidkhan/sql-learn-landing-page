@@ -3,12 +3,13 @@ import {
   Database,
   BookOpen,
   Filter,
-  ArrowUpDown,
   Terminal,
   Zap,
   Menu,
   X,
   Dumbbell,
+  Link2,
+  Layers,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -21,8 +22,9 @@ const navItems = [
   { id: "intro", label: "Intro", icon: BookOpen },
   { id: "basics", label: "Basics", icon: Terminal },
   { id: "filtering", label: "Filter", icon: Filter },
-  { id: "advanced", label: "Sort", icon: ArrowUpDown },
   { id: "aggregation", label: "Aggregate", icon: Zap },
+  { id: "joins", label: "Joins", icon: Link2 },
+  { id: "advanced-topics", label: "Advanced", icon: Layers },
   { id: "practice", label: "Practice", icon: Dumbbell },
 ];
 
@@ -52,7 +54,7 @@ export function FloatingNav({ activeSection }: FloatingNavProps) {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`relative px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 ${
+                className={`relative px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 cursor-pointer ${
                   activeSection === item.id
                     ? "text-white"
                     : "text-slate-400 hover:text-white hover:bg-slate-800/50"
